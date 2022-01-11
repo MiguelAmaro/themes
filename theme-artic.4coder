@@ -1,0 +1,110 @@
+//-
+// CONSTUCT
+//-
+
+//- PALETTE 
+BlackRich = 0xFF001829;
+
+BlueAlice = 0xFFebf7ff;
+BlueIndigoDye = 0xFF003d66;
+BlueJeans = 0xFF47b6ff;
+BlueFrench = 0xFF0078C9;
+BlueCarolina = 0xFF0a9dff;
+BlueColumbia = 0xFFd6efff;
+BlueUranian = 0xFFaddeff;
+BlueUSAFA = 0xFF00568f;
+
+GreenLincon = 0xFF245b1a;
+
+Red = 0xFFff0000;
+RedRoseVale    = 0xFFaf4c4c;
+
+WhiteCultured = 0xFFeeeeee;
+WhiteLinen = 0xFFf2e3de;
+White = 0x3fffffff;
+
+GrayBattleship = 0xFF888888;
+Gray2 = 0x3fccddee;
+Gray1 = 0x3fbbccdd;
+Gray0 = 0x3fbbbbcc;
+
+
+Transparent = 0x00000000;
+
+//- END OF PALETTE 
+
+
+// 4CODER BASIC EDITOR COLORING
+defcolor_bar                   = Transparent;
+defcolor_base                  = BlueFrench;
+defcolor_pop1                  = BlueIndigoDye;
+defcolor_pop2                  = BlueJeans;
+defcolor_back                  = 0xfff0e9eb;
+defcolor_margin                = defcolor_back;
+defcolor_margin_hover          = defcolor_back;
+defcolor_margin_active         = defcolor_back;
+
+// 4CODER LISTER(ALT-X) STUFF
+defcolor_list_item             = { Transparent, Transparent };
+defcolor_list_item_hover       = { BlueColumbia, BlueUranian };
+defcolor_list_item_active      = { BlueUranian, Transparent };
+
+// 4CODER BASIC SYNTAX HIGHLIGHTING
+defcolor_cursor                = { GrayBattleship, BlueJeans };
+defcolor_at_cursor             = Gray1;
+defcolor_highlight_cursor_line = Gray1;
+defcolor_highlight             = Gray1;
+defcolor_at_highlight          = Gray1;
+defcolor_mark                  = GrayBattleship;
+defcolor_text_default          = BlueFrench;
+defcolor_comment               = BlueUranian;
+defcolor_comment_pop           = { GreenLincon, RedRoseVale }; //{NOTE, TODO}
+defcolor_keyword               = GrayBattleship;
+defcolor_str_constant          = BlueIndigoDye;
+defcolor_char_constant         = defcolor_str_constant;
+defcolor_int_constant          = defcolor_str_constant;
+defcolor_float_constant        = defcolor_str_constant;
+defcolor_bool_constant         = defcolor_str_constant;
+defcolor_preproc               = BlueCarolina;
+defcolor_include               = BlueUranian;
+defcolor_special_character     = Transparent;
+defcolor_ghost_character       = Transparent;
+defcolor_highlight_junk        = Transparent;
+defcolor_highlight_white       = Transparent;
+
+// PASTE & UNDO
+defcolor_paste                 = Transparent;
+defcolor_undo                  = Transparent;
+
+// SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
+defcolor_back_cycle = { Gray0, Gray1, Gray2, White };
+defcolor_text_cycle            = { RedRoseVale, GreenLincon };
+defcolor_line_numbers_back     = Transparent;
+defcolor_line_numbers_text     = Transparent;
+
+
+// FLUERY ADVANCED SYNTAX HIGHLIGHTING
+fleury_color_syntax_crap               = BlueIndigoDye;
+fleury_color_operators                 = BlueJeans;
+fleury_color_inactive_pane_overlay     = 0x33ddffff;
+fleury_color_inactive_pane_background  = WhiteLinen;
+fleury_color_file_progress_bar         = 0x550a9dff; //BlueCarolina
+fleury_color_brace_highlight           = { BlueJeans };
+fleury_color_brace_line                = { Transparent };
+fleury_color_brace_annotation          = { Transparent };
+fleury_color_index_product_type        = BlueJeans;
+fleury_color_index_sum_type            = BlueJeans;
+fleury_color_index_function            = BlueUSAFA;
+fleury_color_index_macro               = BlueCarolina;
+fleury_color_index_constant            = BlueCarolina;
+fleury_color_index_comment_tag         = BlueCarolina;
+fleury_color_cursor_macro              = BlueCarolina;
+fleury_color_cursor_power_mode         = BlueCarolina;
+fleury_color_cursor_inactive           = BlueCarolina;
+fleury_color_plot_cycle                = { Transparent, Transparent, Transparent, Transparent };
+fleury_color_token_highlight           = GrayBattleship;
+fleury_color_token_minor_highlight     = BlueCarolina;
+fleury_color_error_annotation          = Red;
+fleury_color_lego_grab                 = BlueCarolina;
+fleury_color_lego_splat                = BlueCarolina;
+fleury_color_comment_user_name         = GrayBattleship;
