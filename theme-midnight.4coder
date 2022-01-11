@@ -1,0 +1,80 @@
+//defcolor_bar_active = 0xFF3E3E3E;
+
+// MIDNIGHT VALS
+defcolor_bar                   = 0xFF606060;
+defcolor_base                  = 0xFF000000;
+defcolor_pop1                  = 0xFF00B0D0;
+defcolor_pop2                  = 0xFFFF3A00;
+defcolor_back                  = 0xFF202020;
+defcolor_margin                = 0xFF383838;
+defcolor_margin_hover          = 0xFFFF0000;
+defcolor_margin_active         = defcolor_back;
+
+// BORROWEED VALS
+defcolor_list_item             = { 0xFF222425, defcolor_back};
+defcolor_list_item_hover       = { 0xff362e25, defcolor_margin};
+defcolor_list_item_active      = { 0xff63523d, defcolor_margin};
+
+// MIDNIGHT VALS
+defcolor_cursor                = {0xFFDDDDDD, 0xFFDD7777};
+defcolor_at_cursor             = defcolor_back;
+defcolor_highlight_cursor_line = 0xFF383838;
+defcolor_highlight             = 0xFF00FF80;
+defcolor_at_highlight          = defcolor_back;
+defcolor_mark                  = 0xFF808080;
+defcolor_text_default          = 0xFFB8B8B0;
+defcolor_comment               = 0xFF6AC000;
+defcolor_comment_pop           = {0xFF20D020, 0xFFF01010};
+defcolor_keyword               = 0xFFFFDDAA;
+defcolor_str_constant          = defcolor_keyword;
+defcolor_char_constant         = defcolor_str_constant;
+defcolor_int_constant          = defcolor_str_constant;
+defcolor_float_constant        = defcolor_str_constant;
+defcolor_bool_constant         = defcolor_str_constant;
+defcolor_preproc               = 0xFFFFFFFF;
+defcolor_include               = defcolor_str_constant;
+defcolor_special_character     = 0xFFFF0000;
+defcolor_ghost_character       = 0xFFFF6D6D;
+defcolor_highlight_junk        = 0xFF482020;
+defcolor_highlight_white       = 0xFFFF3838;
+
+// BORROWEED VALS
+defcolor_paste                 = 0xFF00FFFF;
+defcolor_undo                  = 0xFFFF00FF;
+
+// MIDNIGHT VALS
+defcolor_back_cycle            = {0x08A00000, 0x0800A000, 0x080000A0, 0x08A0A000};
+defcolor_text_cycle            = {0xFFF01010, 0xFF20D020, 0xFF0080E0, 0xFFD0D000};
+defcolor_line_numbers_back     = 0xFF383838;
+defcolor_line_numbers_text     = 0xFF686860;
+
+
+// BORROWEED VALS
+fleury_color_syntax_crap               = 0xff5c4d3c;
+fleury_color_operators                 = 0xFFdc7575;
+fleury_color_inactive_pane_overlay     = 0x44000000;
+fleury_color_inactive_pane_background  = 0xff000000;
+fleury_color_file_progress_bar         = 0x60634323;
+fleury_color_brace_highlight           = { 0xff8ffff2 };
+fleury_color_brace_line                = { 0x809ba290 };
+fleury_color_brace_annotation          = { 0x809ba290 };
+fleury_color_index_product_type        = defcolor_keyword;
+fleury_color_index_sum_type            = defcolor_keyword;
+fleury_color_index_function            = defcolor_pop1;
+fleury_color_index_macro               = 0x8800B0D0;
+fleury_color_index_constant            = 0xffffffff;
+fleury_color_index_comment_tag         = 0xff27cc7f;
+fleury_color_cursor_macro              = 0xffde2368;
+fleury_color_cursor_power_mode         = 0xffefaf2f;
+fleury_color_cursor_inactive           = 0xFF880000;
+fleury_color_plot_cycle                = { 0xff03d3fc, 0xff22b80b, 0xfff0bb0c, 0xfff0500c };
+fleury_color_token_highlight           = 0x88dc7575;
+fleury_color_error_annotation          = 0xffff0000;
+fleury_color_token_minor_highlight     = 0x44dc7575;
+fleury_color_lego_grab                 = 0xffefaf6f;
+fleury_color_lego_splat                = 0xffefaaef;
+fleury_color_comment_user_name         = 0xffffdd23;
+
+
+
+

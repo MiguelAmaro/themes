@@ -1,0 +1,93 @@
+//-
+// BLUERED
+//-
+
+//- PALETTE 
+black       = 0xFF000000;
+black_rich  = 0xFF121212;
+black_eerie = 0xFF171717;
+
+blue_columbia = 0xFFcdedff;
+
+gray_onyx = 0xFF404646;
+
+red_rosso_corsa    = 0xFFcc0000;
+red_rose_vale      = 0xFFaf4c4c;
+red_rose_vale_trsp = 0x55af4c4c;
+
+white          = 0xFFffffff;
+white_platinum = 0xFFe1e1e1;
+
+
+transparent = 0x00000000;
+//- END OF PALETTE 
+
+// 4CODER BASIC EDITOR COLORING
+defcolor_bar                   = 0xFF131313;
+defcolor_base                  = 0xFFaacfff;
+defcolor_pop1                  = 0xffdF0000;
+defcolor_pop2                  = 0xFFff0000;
+defcolor_back                  = black_rich;
+defcolor_margin                = black_eerie;
+defcolor_margin_hover          = black_eerie;
+defcolor_margin_active         = black_eerie;
+
+// 4CODER LISTER(ALT-X) STUFF
+defcolor_list_item             = { 0xFF222425, defcolor_back  };
+defcolor_list_item_hover       = { 0xff362e25, defcolor_margin};
+defcolor_list_item_active      = { 0xff63523d, defcolor_margin};
+
+// 4CODER BASIC SYNTAX HIGHLIGHTING
+defcolor_cursor                = { 0x4FF76767, 0xffe0741b, 0xff1be094, 0xffba60c4 };
+defcolor_at_cursor             = 0xFF0C0C0C;
+defcolor_highlight_cursor_line = black;
+defcolor_highlight             = 0xFF303040;
+defcolor_at_highlight          = 0xFFFF44DD;
+defcolor_mark                  = 0xFF494949;
+defcolor_text_default          = 0xbFaacfff;
+defcolor_comment               = gray_onyx;
+defcolor_comment_pop           = { 0xFF024402, 0xFF722422 };
+defcolor_keyword               = 0xbf559FFD;
+defcolor_str_constant          = white_platinum;
+defcolor_char_constant         = white_platinum;
+defcolor_int_constant          = white_platinum;
+defcolor_float_constant        = white_platinum;
+defcolor_bool_constant         = white_platinum;
+defcolor_preproc               = red_rosso_corsa;
+defcolor_include               = red_rosso_corsa;
+defcolor_special_character     = red_rosso_corsa;
+defcolor_ghost_character       = 0xFF4E5E46;
+defcolor_highlight_junk        = 0xFF3A0000;
+defcolor_highlight_white       = 0xFF003A3A;
+
+// PASTE & UNDO
+defcolor_paste                 = 0xFFDDEE00;
+defcolor_undo                  = 0xFF00DDEE;
+
+// SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
+defcolor_back_cycle            = { 0x80111111, 0xA0101010, 0xB0010101, 0xC0000000 };
+defcolor_text_cycle            = { 0xFFA00000, 0xFF00A000, 0xFF0030B0, 0xFF00A000 };
+defcolor_line_numbers_back     = 0xFF101010;
+defcolor_line_numbers_text     = 0xFF404040;
+
+
+// FLUERY ADVANCED SYNTAX HIGHLIGHTING
+fleury_color_syntax_crap              = 0xff5c4d3c;
+fleury_color_operators                = red_rose_vale;
+fleury_color_inactive_pane_overlay    = transparent;
+fleury_color_inactive_pane_background = 0xFF141414;
+fleury_color_file_progress_bar        = red_rose_vale_trsp;
+fleury_color_brace_highlight          = { 0xffffffff };
+fleury_color_brace_line               = { 0x809ba290 };
+fleury_color_brace_annotation         = { 0x809ba290 };
+fleury_color_index_product_type       = blue_columbia;
+fleury_color_index_sum_type           = 0xFFa7eb13;
+fleury_color_index_function           = red_rose_vale;
+fleury_color_index_macro              = 0xFFA9AEB6;
+fleury_color_index_constant           = 0xFF6eb535;
+fleury_color_index_comment_tag        = 0xFF27cc7f;
+fleury_color_cursor_macro             = 0xFFde2368;
+fleury_color_cursor_power_mode        = 0xFFefaf2f;
+fleury_color_plot_cycle               = { 0xff03d3fc, 0xff22b80b, 0xfff0bb0c, 0xfff0500c };
+fleury_color_token_highlight          = 0xafffffff;
+fleury_color_comment_user_name        = 0xFF9F8F66;
