@@ -3,119 +3,101 @@
 //-
 
 //- PALETTE 
-black       = 0xFF000000;
-black_eerie = 0xFF141316;
+BlackXiketic = 0xFF050012;
 
-blue_russian_violet   = 0xFF1a131f;
-blue_aqua             = 0xFF31cdce;
-blue_vivid_sky        = 0xFF01c3f9;
+PinkFrenchMauve = 0xFFda7bd9;
+PinkCottonCandy = 0xFFFDB9F9;
+BlueAreo = 0xFFBDFFE7;
+PinkSteel = 0xFFFBDCFE;
+PinkLace = 0xFFFBDaeE;
+BlueTurquoise = 0xFF35DED3;
+BlueVividSky = 0xFF01c3f9;
 
-gray_onyx       = 0xFF3E3D45;
-gray_ash        = 0xFFAAB4B3;
-gray_light      = 0xFFd6d7d9;
-gray_light_trsp = 0x20d6d7d9;
-gray_battleship = 0xFF888888;
+GreenLincon = 0xFF245b1a;
 
-pink_fuchsia          = 0xFFb92dbb;
-pink_cottoncandy      = 0xFFfac9f7;
-pink_cottoncandy_trsp = 0x55fac9f7;
+Red = 0xFFff0000;
+RedRoseVale = 0xFFaf4c4c;
 
-purple_dark      = 0xFF3C096C;
-purple_dark_trsp = 0x553C096C;
+White = 0xffffffff;
+WhiteLinen = 0xFFf2e3de;
 
-white                = 0xFFffffff;
-white_linen          = 0xFFf2e3de;
+GrayBattleship = 0xFF888888;
 
-red                  = 0xFFff0000;
-red_trsp             = 0x20ff0000;
-red_dark_sienna      = 0xFF421723;
-red_dark_sienna_trsp = 0x55421723;
-
-orange_light_salmon      = 0xFFf3a87c;
-
-cycle_white           = 0x10ffffff;
-cycle_blue_aqua       = 0x1021fdfe;
-cycle_gray_ash        = 0x10aaB4b3;
-cycle_red_dark_sienna = 0x10421723;
-cycle_pink_fuchsia    = 0x10fa2dfb;
-cycle_blue_cadet      = 0x10719fa3;
-cycle_orange_spanish  = 0x20f3a87c;
-
-transparent = 0x00000000;
+Transparent = 0x00000000;
 //- END OF PALETTE 
 
 
 // 4CODER BASIC EDITOR COLORING
-defcolor_bar                   = black_eerie;
-defcolor_base                  = white_linen;
-defcolor_pop1                  = white_linen;
-defcolor_pop2                  = pink_fuchsia;
-defcolor_back                  = blue_russian_violet;
+defcolor_bar                   = Transparent;
+defcolor_base                  = WhiteLinen;
+defcolor_pop1                  = PinkFrenchMauve;
+defcolor_pop2                  = BlueAreo;
+defcolor_back                  = BlackXiketic;
 defcolor_margin                = defcolor_back;
-defcolor_margin_hover          = black_eerie;
+defcolor_margin_hover          = defcolor_back;
 defcolor_margin_active         = defcolor_back;
 
 // 4CODER LISTER(ALT-X) STUFF
-defcolor_list_item             = { defcolor_back, black_eerie};
-defcolor_list_item_hover       = { pink_fuchsia, defcolor_margin};
-defcolor_list_item_active      = { blue_aqua, defcolor_margin};
+defcolor_list_item             = { Transparent, Transparent };
+defcolor_list_item_hover       = { BlueAreo, PinkFrenchMauve };
+defcolor_list_item_active      = { PinkLace, Transparent };
 
 // 4CODER BASIC SYNTAX HIGHLIGHTING
-defcolor_cursor                = {blue_aqua, white_lavender_blush};
-defcolor_at_cursor             = defcolor_back;
-defcolor_highlight_cursor_line = pink_cottoncandy_trsp;
-defcolor_highlight             = white_linen;
-defcolor_at_highlight          = defcolor_back;
-defcolor_mark                  = white_linen;
-defcolor_text_default          = white_linen;
-defcolor_comment               = gray_battleship;
-defcolor_comment_pop           = {blue_aqua, pink_fuchsia};
-defcolor_keyword               = pink_fuchsia;
-defcolor_str_constant          = pink_cottoncandy;
+defcolor_cursor                = { GrayBattleship, WhiteCultured };
+defcolor_at_cursor             = 0x33FDB9F9; //PinkCottonCandy
+defcolor_highlight_cursor_line = 0x33FBDaeE; //PinkCottonCandy
+defcolor_highlight             = 0x33FDB9F9; //PinkCottonCandy
+defcolor_at_highlight          = 0x33FDB9F9; //PinkCottonCandy
+defcolor_mark                  = GrayBattleship;
+defcolor_text_default          = BlueTurquoise;
+defcolor_comment               = PinkLace;
+defcolor_comment_pop           = { GreenLincon, RedRoseVale }; //{NOTE, TODO}
+defcolor_keyword               = GrayBattleship;
+defcolor_str_constant          = PinkCottonCandy;
 defcolor_char_constant         = defcolor_str_constant;
 defcolor_int_constant          = defcolor_str_constant;
 defcolor_float_constant        = defcolor_str_constant;
 defcolor_bool_constant         = defcolor_str_constant;
-defcolor_preproc               = orange_light_salmon;
-defcolor_include               = defcolor_str_constant;
-defcolor_special_character     = pink_cottoncandy;
-defcolor_ghost_character       = blue_vivid_sky;
-defcolor_highlight_junk        = red_trsp;
-defcolor_highlight_white       = purple_dark_trsp;
+defcolor_preproc               = PinkSteel;
+defcolor_include               = BlueMaya;
+defcolor_special_character     = Transparent;
+defcolor_ghost_character       = Transparent;
+defcolor_highlight_junk        = 0x22ff0000; //Red
+defcolor_highlight_white       = 0x33da7bd9; //PinkFrenchMauve
 
 // PASTE & UNDO
-defcolor_paste                 = 0xFF00FFFF;
-defcolor_undo                  = 0xFFFF00FF;
+defcolor_paste                 = Transparent;
+defcolor_undo                  = Transparent;
 
 // SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
-defcolor_back_cycle = {cycle_orange_spanish, cycle_white, cycle_blue_aqua , cycle_pink_fuchsia};
-defcolor_text_cycle            = {0xFFF01010, 0xFF20D020, 0xFF0080E0, 0xFFD0D000};
-defcolor_line_numbers_back     = 0xFF383838;
-defcolor_line_numbers_text     = 0xFF686860;
+defcolor_back_cycle = { Transparent, Transparent, Transparent, Transparent };
+defcolor_text_cycle            = { RedRoseVale, GreenLincon };
+defcolor_line_numbers_back     = Transparent;
+defcolor_line_numbers_text     = Transparent;
 
 
 // FLUERY ADVANCED SYNTAX HIGHLIGHTING
-fleury_color_syntax_crap               = pink_fuchsia;
-fleury_color_operators                 = fleury_color_syntax_crap;
-fleury_color_inactive_pane_overlay     = transparent;
+fleury_color_syntax_crap               = PinkFrenchMauve;
+fleury_color_operators                 = WhiteLinen;
+fleury_color_inactive_pane_overlay     = 0x00Fbdcfe;
 fleury_color_inactive_pane_background  = defcolor_back;
-fleury_color_file_progress_bar         = pink_cottoncandy_trsp;
-fleury_color_brace_highlight           = { blue_aqua };
-fleury_color_brace_line                = { gray_light_trsp };
-fleury_color_brace_annotation          = { pink_fuchsia };
-fleury_color_index_product_type        = gray_battleship;
-fleury_color_index_sum_type            = gray_ash;
-fleury_color_index_function            = blue_aqua;
-fleury_color_index_macro               = white;
-fleury_color_index_constant            = oxFFd8352f;
-fleury_color_index_comment_tag         = red;
-fleury_color_cursor_macro              = white;
-fleury_color_cursor_power_mode         = red;
-fleury_color_cursor_inactive           = pink_fuchsia;
-fleury_color_plot_cycle                = { green_artichoke, blue_cadet, gray_battleship, red_rufous };
-fleury_color_token_highlight           = blue_cadet;
-fleury_color_token_minor_highlight     = blue_aqua;
-fleury_color_error_annotation          = red;
-fleury_color_lego_grab                 = blue_aqua;
-fleury_color_lego_splat                = red;
-fleury_color_comment_user_name         = white_linen;
+fleury_color_file_progress_bar         = 0x55Fbdcfe; //PinkSteel
+fleury_color_brace_highlight           = { WhiteCultured };
+fleury_color_brace_annotation          = { PinkLace };
+fleury_color_brace_line                = { Gray0  };
+fleury_color_index_product_type        = WhiteCultured;
+fleury_color_index_sum_type            = WhiteCultured;
+fleury_color_index_function            = BlueAreo;
+fleury_color_index_macro               = PinkSteel;
+fleury_color_index_constant            = PinkSteel;
+fleury_color_index_comment_tag         = PinkSteel;
+fleury_color_cursor_macro              = PinkSteel;
+fleury_color_cursor_power_mode         = PinkSteel;
+fleury_color_cursor_inactive           = PinkSteel;
+fleury_color_plot_cycle                = { Gray0, BlueMaya, RedRoseVale, White };
+fleury_color_token_highlight           = GrayBattleship;
+fleury_color_token_minor_highlight     = PinkSteel;
+fleury_color_error_annotation          = Red;
+fleury_color_lego_grab                 = PinkSteel;
+fleury_color_lego_splat                = PinkSteel;
+fleury_color_comment_user_name         = PinkSteel;
