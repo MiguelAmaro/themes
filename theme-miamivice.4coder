@@ -3,13 +3,16 @@
 //-
 
 //- PALETTE 
-BlackXiketic = 0xFF050012;
+BlackXiketic = 0xFF00000b;
 
 PinkFrenchMauve = 0xFFda7bd9;
 PinkCottonCandy = 0xFFFDB9F9;
-BlueAreo = 0xFFBDFFE7;
+BlueAreo    = 0xFFBDFFE7;
+BlueAreoA22 = 0x22BDFFE7;
 PinkSteel = 0xFFFBDCFE;
 PinkLace = 0xFFFBDaeE;
+PinkLaceA22 = 0x22FBDaeE;
+PinkOldLavender = 0xFF433749;
 BlueTurquoise = 0xFF35DED3;
 BlueVividSky = 0xFF01c3f9;
 
@@ -39,8 +42,8 @@ defcolor_margin_active         = defcolor_back;
 
 // 4CODER LISTER(ALT-X) STUFF
 defcolor_list_item             = { Transparent, Transparent };
-defcolor_list_item_hover       = { BlueAreo, PinkFrenchMauve };
-defcolor_list_item_active      = { PinkLace, Transparent };
+defcolor_list_item_hover       = { BlueAreoA22, PinkFrenchMauve };
+defcolor_list_item_active      = { PinkLaceA22, Transparent };
 
 // 4CODER BASIC SYNTAX HIGHLIGHTING
 defcolor_cursor                = { GrayBattleship, WhiteCultured };
@@ -50,7 +53,7 @@ defcolor_highlight             = 0x33FDB9F9; //PinkCottonCandy
 defcolor_at_highlight          = 0x33FDB9F9; //PinkCottonCandy
 defcolor_mark                  = GrayBattleship;
 defcolor_text_default          = BlueTurquoise;
-defcolor_comment               = PinkLace;
+defcolor_comment               = PinkOldLavender;
 defcolor_comment_pop           = { GreenLincon, RedRoseVale }; //{NOTE, TODO}
 defcolor_keyword               = GrayBattleship;
 defcolor_str_constant          = PinkCottonCandy;
@@ -100,4 +103,4 @@ fleury_color_token_minor_highlight     = PinkSteel;
 fleury_color_error_annotation          = Red;
 fleury_color_lego_grab                 = PinkSteel;
 fleury_color_lego_splat                = PinkSteel;
-fleury_color_comment_user_name         = PinkSteel;
+fleury_color_comment_user_name         = PinkLace;
