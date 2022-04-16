@@ -3,6 +3,7 @@
 //-
 
 //- PALETTE 
+Black      = 0xFF000000;
 BlackEeire = 0xFF121214;
 
 GreyJet         = 0xFF313136;
@@ -18,7 +19,7 @@ GreyCultured    = 0xFFf5f5f5;
 GreenLincon = 0xFF245b1a;
 
 Grey = 0xFFff0000;
-GreyRoseVale = 0xFFaf4c4c;
+RedRoseVale = 0xFFaf4c4c;
 
 White = 0x3fffffff;
 WhiteCultured = 0xFFeeeeee;
@@ -60,7 +61,7 @@ defcolor_at_highlight          = Gray1;
 defcolor_mark                  = GrayBattleship;
 defcolor_text_default          = GreyBlackCoral;
 defcolor_comment               = GreyGrayX;
-defcolor_comment_pop           = { GreenLincon, GreyRoseVale }; //{NOTE, TODO}
+defcolor_comment_pop           = { GreenLincon, RedRoseVale }; //{NOTE, TODO}
 defcolor_keyword               = GrayBattleship;
 defcolor_str_constant          = GreyJet;
 defcolor_char_constant         = defcolor_str_constant;
@@ -80,7 +81,7 @@ defcolor_undo                  = Transparent;
 
 // SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
 defcolor_back_cycle = { Gray0, Gray1, Gray2, White };
-defcolor_text_cycle            = { GreyRoseVale, GreenLincon };
+defcolor_text_cycle            = { RedRoseVale, GreenLincon };
 defcolor_line_numbers_back     = Transparent;
 defcolor_line_numbers_text     = Transparent;
 
@@ -94,16 +95,16 @@ fleury_color_file_progress_bar         = 0x557f7f8a; //GreyRomanSilver
 fleury_color_brace_highlight           = { GreyManatee };
 fleury_color_brace_annotation          = { GreyManatee };
 fleury_color_brace_line                = { Gray0  };
-fleury_color_index_product_type        = GreyManatee;
-fleury_color_index_sum_type            = GreyManatee;
-fleury_color_index_function            = GreyUSAFA;
-fleury_color_index_macro               = GreyRomanSilver;
+fleury_color_index_product_type        = GreyRomanSilver;
+fleury_color_index_sum_type            = GreyRomanSilver;
+fleury_color_index_function            = GreyJet;
+fleury_color_index_macro               = GreyManatee;
 fleury_color_index_constant            = GreyRomanSilver;
-fleury_color_index_comment_tag         = GreyRomanSilver;
+fleury_color_index_comment_tag         = RedRoseVale;
 fleury_color_cursor_macro              = GreyRomanSilver;
 fleury_color_cursor_power_mode         = GreyRomanSilver;
 fleury_color_cursor_inactive           = GreyRomanSilver;
-fleury_color_plot_cycle                = { Gray0, GreyGrayX, GreyRoseVale, GreyBlackCoral };
+fleury_color_plot_cycle                = { Gray0, GreyGrayX, RedRoseVale, GreyBlackCoral };
 fleury_color_token_highlight           = GrayBattleship;
 fleury_color_token_minor_highlight     = GreyRomanSilver;
 fleury_color_error_annotation          = Grey;

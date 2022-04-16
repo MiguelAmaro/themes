@@ -1,46 +1,42 @@
 //-
-// DEEP-BLUE
+// DEEP-GREEN
 //-
 
 //- PALETTE 
-BlackRich  = 0xFF0f0f18; //name stale 0xFF0f131c
-BlackEerie = 0xFF141316;
+Black00  = 0xFF10161b; //back
+Black01 = 0xFF141316;  //list-item
+Green02 = 0xFF6f7d48; //keyword
+Green00 = 0xFFa2a371; // ghost_character cursor_macro plot_cycle token_highlight
+Green01 = 0xFFbcc787; //sum_type product_type
 
-BlueColumbia   = 0xFFcdedff;
-BlueCadet      = 0xFF719FA3;
-BlueMaya       = 0xFF79c0ff;
-BlueBabyBlueEyes = 0xFF308f9f; //name stale
-BlueDarkSky      = 0xFF86B7C6;
-BlueDarkElectric = 0xFF496C7E;
-BlueCadetA50   = 0x50719FA3;
-BlueRobinEgg   = 0xFF00cac8;
+Blue00   = 0x50719FA3; //list_item_active
 
-YellowSatinGold    = 0xFFA6922B;
-YellowSatinGoldA22 = 0x22A6922B;
+Yellow00 = 0xFFc9b900; //index_macro
+YellowSatinGold    = 0xFFA6922B; //pop2 preproc brace_annotation
+YellowSatinGoldA22 = 0x22A6922B; //list_item_hover
+GrayAsh        = 0xFFAAB4B3; // index_sum_type
+GrayLight      = 0xFFd6d7d9; // syntax_crap operators
+GrayLightA20 = 0x20d6d7d9;   // back_cycle brace_line
+GrayBattleship = 0xFF888888; //text_default plot_cycle
+GrayDarkLiver  = 0xff474e64; // comment
 
-GrayAsh        = 0xFFAAB4B3;
-GrayLight      = 0xFFd6d7d9;
-GrayLightA20 = 0x20d6d7d9;
-GrayBattleship = 0xFF888888;
-GrayDarkLiver  = 0xff474e64; /// name stale
+GreenArtichoke = 0xFF818C71; //comment_pop token_minor_highlight
+GreenRobinEgg  = 0xFFb7d90f; //index_function
 
-GreenArtichoke = 0xFF818C71;
-GreenRobinEgg  = 0xFF0faad8; ///name stale
+PurpleDarkA55 = 0x553C096C; //highlight_white
 
-PurpleDarkA55 = 0x553C096C;
+White                = 0xFFffffff; //str_constant
+WhiteLavenderBlush = 0xFFf2e5ee; //cursor
+WhiteLinen          = 0xFFf2e3de; //highlight
 
-White                = 0xFFffffff;
-WhiteLavenderBlush = 0xFFf2e5ee;
-WhiteLinen          = 0xFFf2e3de;
+Red    = 0xFFff0000; //error_annotation
+RedA20 = 0x20ff0000; //highlight_junk
+RedRossoCorsa    = 0xFFcc0000; //special_character
+RedRoseVale      = 0xFFaf4c4c; // index_comment_tag plot_cycle
 
-Red    = 0xFFff0000;
-RedA20 = 0x20ff0000;
-RedRossoCorsa    = 0xFFcc0000;
-RedRoseVale      = 0xFFaf4c4c;
+OrangeCopper = 0xFFc47b40; //index_constant
 
-OrangeCopper = 0xFFc47b40;
-
-cycle_White          = 0x10ffffff;
+cycle_White          = 0x10ffffff; //back_cycle
 cycle_Red            = 0x10872d2d;
 cycle_BlueCadet     = 0x10719FA3;
 
@@ -53,15 +49,15 @@ defcolor_bar                   = Transparent;
 defcolor_base                  = WhiteLinen;
 defcolor_pop1                  = WhiteLinen;
 defcolor_pop2                  = YellowSatinGold;
-defcolor_back                  = BlackRich;
+defcolor_back                  = Black00;
 defcolor_margin                = defcolor_back;
 defcolor_margin_hover          = defcolor_back;
 defcolor_margin_active         = defcolor_back;
 
 // 4CODER LISTER(ALT-X) STUFF
-defcolor_list_item             = { defcolor_back, BlackEerie};
+defcolor_list_item             = { defcolor_back, Black01};
 defcolor_list_item_hover       = { YellowSatinGoldA22, Transparent }; //Mouse Select
-defcolor_list_item_active      = { BlueCadetA50, defcolor_margin}; //Key Select
+defcolor_list_item_active      = { Blue00, defcolor_margin}; //Key Select
 
 // 4CODER BASIC SYNTAX HIGHLIGHTING
 defcolor_cursor                = {YellowSatinGold_trsp, WhiteLavenderBlush};
@@ -73,7 +69,7 @@ defcolor_mark                  = Transparent;
 defcolor_text_default          = GrayBattleship;
 defcolor_comment               = GrayDarkLiver;
 defcolor_comment_pop           = { GreenArtichoke, RedRoseVale }; // { NOTE, TODO }
-defcolor_keyword               = BlueDarkElectric;
+defcolor_keyword               = Green02;
 defcolor_str_constant          = White;
 defcolor_char_constant         = defcolor_str_constant;
 defcolor_int_constant          = defcolor_str_constant;
@@ -82,7 +78,7 @@ defcolor_bool_constant         = defcolor_str_constant;
 defcolor_preproc               = YellowSatinGold;
 defcolor_include               = defcolor_str_constant;
 defcolor_special_character     = RedRossoCorsa;
-defcolor_ghost_character       = BlueCadet;
+defcolor_ghost_character       = Green00;
 defcolor_highlight_junk        = RedA20;
 defcolor_highlight_white       = PurpleDarkA55;
 
@@ -106,17 +102,17 @@ fleury_color_file_progress_bar         = YellowSatinGoldA20;
 fleury_color_brace_highlight           = { White };
 fleury_color_brace_line                = { GrayLightA20 };
 fleury_color_brace_annotation          = { YellowSatinGold };
-fleury_color_index_product_type        = BlueDarkSky;
-fleury_color_index_sum_type            = BlueDarkSky; //Change GrayAsh
+fleury_color_index_product_type        = Green01;
+fleury_color_index_sum_type            = Green01;
 fleury_color_index_function            = GreenRobinEgg;
-fleury_color_index_macro               = BlueRobinEgg;
+fleury_color_index_macro               = Yellow00;
 fleury_color_index_constant            = OrangeCopper;
 fleury_color_index_comment_tag         = RedRoseVale;
-fleury_color_cursor_macro              = BlueCadet;
+fleury_color_cursor_macro              = Green00;
 fleury_color_cursor_power_mode         = GreendarkSpring;
 fleury_color_cursor_inactive           = Redrufous;
-fleury_color_plot_cycle                = { Greenartichoke, BlueCadet, GrayBattleship, RedRoseVale };
-fleury_color_token_highlight           = BlueCadet;
+fleury_color_plot_cycle                = { Greenartichoke, Green00, GrayBattleship, RedRoseVale };
+fleury_color_token_highlight           = Green00;
 fleury_color_token_minor_highlight     = GreenArtichoke;
 fleury_color_error_annotation          = Red;
 fleury_color_lego_grab                 = Transparent;

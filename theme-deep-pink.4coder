@@ -3,17 +3,17 @@
 //-
 
 //- PALETTE 
-BlackRich  = 0xFF0f0f18; //name stale 0xFF0f131c
+BlackRich  = 0xFF161616; //name stale 0xFF0f131c
 BlackEerie = 0xFF141316;
 
 BlueColumbia   = 0xFFcdedff;
-BlueCadet      = 0xFF719FA3;
+BlueCadet      = 0xFF9b7188;
 BlueMaya       = 0xFF79c0ff;
-BlueBabyBlueEyes = 0xFF308f9f; //name stale
-BlueDarkSky      = 0xFF86B7C6;
-BlueDarkElectric = 0xFF496C7E;
+BlueBabyBlueEyes = 0xFF902f62; //name stale
+BlueDarkSky      = 0xFFc187a4;
+BlueDarkElectric = 0xFF7b4860;
 BlueCadetA50   = 0x50719FA3;
-BlueRobinEgg   = 0xFF00cac8;
+BlueRobinEgg   = 0xFFa0005c;
 
 YellowSatinGold    = 0xFFA6922B;
 YellowSatinGoldA22 = 0x22A6922B;
@@ -25,7 +25,7 @@ GrayBattleship = 0xFF888888;
 GrayDarkLiver  = 0xff474e64; /// name stale
 
 GreenArtichoke = 0xFF818C71;
-GreenRobinEgg  = 0xFF0faad8; ///name stale
+GreenRobinEgg  = 0xFFc60f6c; ///name stale
 
 PurpleDarkA55 = 0x553C096C;
 
@@ -40,9 +40,9 @@ RedRoseVale      = 0xFFaf4c4c;
 
 OrangeCopper = 0xFFc47b40;
 
-cycle_White          = 0x10ffffff;
-cycle_Red            = 0x10872d2d;
-cycle_BlueCadet     = 0x10719FA3;
+cycle_White          = 0x02ffffff;
+cycle_Red            = 0x05872d2d;
+cycle_BlueCadet     = 0x02719FA3;
 
 Transparent = 0x00000000;
 //- END OF PALETTE 

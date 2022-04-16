@@ -6,7 +6,7 @@
 black       = 0xFF000000;
 black_rich  = 0xFF121212;
 black_eerie = 0xFF141316;
-black_jet   = 0xFF2f2f2f;
+black_jet   = 0xFF1a1a1f; //Name stale
 
 blue_columbia   = 0xFFcdedff;
 blue_cadet      = 0xFF719FA3;
@@ -15,7 +15,7 @@ blue_cadet_trsp = 0x50719FA3;
 brown_dark      = 0xFF634323;
 brown_dark_trsp = 0x55634323;
 
-yellow_munsell = 0xFFe6c72c;
+yellow_munsell = 0xFFefbf1c;
 yellow_munsell_trsp = 0x20e6c72c;
 
 gray_onyx       = 0xFF3E3D45;
@@ -33,6 +33,7 @@ purple_dark_trsp = 0x553C096C;
 white                = 0xFFffffff;
 white_lavender_blush = 0xFFf2e5ee;
 white_linen          = 0xFFf2e3de;
+white_linen1         = 0x2ffff0e0;  //stale name
 white_platinum       = 0xFFe1e1e1;
 
 red      = 0xFFff0000;
@@ -77,15 +78,15 @@ defcolor_highlight             = white_lavender_blush;
 defcolor_at_highlight          = defcolor_back;
 defcolor_mark                  = release_0;
 defcolor_text_default          = gray_battleship;
-defcolor_comment               = white_linen;
+defcolor_comment               = white_linen1;
 defcolor_comment_pop           = {green_artichoke, red_rose_vale};
 defcolor_keyword               = blue_cadet;
-defcolor_str_constant          = yellow_munsell;
+defcolor_str_constant          = white;
 defcolor_char_constant         = defcolor_str_constant;
 defcolor_int_constant          = defcolor_str_constant;
 defcolor_float_constant        = defcolor_str_constant;
 defcolor_bool_constant         = defcolor_str_constant;
-defcolor_preproc               = white;
+defcolor_preproc               = yellow_munsell;
 defcolor_include               = defcolor_str_constant;
 defcolor_special_character     = red_rosso_corsa;
 defcolor_ghost_character       = blue_cadet;
@@ -97,7 +98,7 @@ defcolor_paste                 = 0xFF00FFFF;
 defcolor_undo                  = 0xFFFF00FF;
 
 // SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
-defcolor_back_cycle = {cycle_red, cycle_white, cycle_green_black , cycle_blue_cadet};
+defcolor_back_cycle = {0x10000000, cycle_white, cycle_green_black , cycle_blue_cadet};
 defcolor_text_cycle            = {0xFFF01010, 0xFF20D020, 0xFF0080E0, 0xFFD0D000};
 defcolor_line_numbers_back     = 0xFF383838;
 defcolor_line_numbers_text     = 0xFF686860;
@@ -112,16 +113,16 @@ fleury_color_file_progress_bar         = yellow_munsell_trsp;
 fleury_color_brace_highlight           = { white };
 fleury_color_brace_line                = { gray_light_trsp };
 fleury_color_brace_annotation          = { yellow_munsell };
-fleury_color_index_product_type        = gray_ash;
+fleury_color_index_product_type        = green_artichoke;//0xff434f3f;
 fleury_color_index_sum_type            = gray_ash;
 fleury_color_index_function            = yellow_munsell; //gray_light;
 fleury_color_index_macro               = gray_battleship;
 fleury_color_index_constant            = orange_copper;
-fleury_color_index_comment_tag         = red_rufous;
+fleury_color_index_comment_tag         = red_rose_vale;
 fleury_color_cursor_macro              = blue_cadet;
 fleury_color_cursor_power_mode         = green_dark_spring;
-fleury_color_cursor_inactive           = red_rufous;
-fleury_color_plot_cycle                = { green_artichoke, blue_cadet, gray_battleship, red_rufous };
+fleury_color_cursor_inactive           = red_rosso_corsa;
+fleury_color_plot_cycle                = { green_artichoke, blue_cadet, gray_battleship, red_rose_vale };
 fleury_color_token_highlight           = blue_cadet;
 fleury_color_token_minor_highlight     = green_artichoke;
 fleury_color_error_annotation          = red;
