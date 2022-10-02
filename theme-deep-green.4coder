@@ -9,9 +9,9 @@ Green02 = 0xFF6f7d48; //keyword
 Green00 = 0xFFa2a371; // ghost_character cursor_macro plot_cycle token_highlight
 Green01 = 0xFFbcc787; //sum_type product_type
 
-Blue00   = 0x50719FA3; //list_item_active
+Blue00 = 0x50719FA3; //list_item_active
+Blue01 = 0xFF55aabb; //index_macro
 
-Yellow00 = 0xFFc9b900; //index_macro
 YellowSatinGold    = 0xFFA6922B; //pop2 preproc brace_annotation
 YellowSatinGoldA22 = 0x22A6922B; //list_item_hover
 GrayAsh        = 0xFFAAB4B3; // index_sum_type
@@ -105,7 +105,7 @@ fleury_color_brace_annotation          = { YellowSatinGold };
 fleury_color_index_product_type        = Green01;
 fleury_color_index_sum_type            = Green01;
 fleury_color_index_function            = GreenRobinEgg;
-fleury_color_index_macro               = Yellow00;
+fleury_color_index_macro               = Blue01;
 fleury_color_index_constant            = OrangeCopper;
 fleury_color_index_comment_tag         = RedRoseVale;
 fleury_color_cursor_macro              = Green00;

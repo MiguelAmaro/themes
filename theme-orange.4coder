@@ -1,0 +1,109 @@
+//-
+// DEEP-ORANGE
+//-
+
+//- PALETTE 
+White       = 0xFFffffff;
+White01     = 0xFFf2e3de; //literals
+White02     = 0xFFf2e5ee;
+Black00     = 0xFF000000; // scope
+Black01     = 0xFF121212; // Background
+Black02     = 0xFF070707; // scope
+Black03     = 0xFF0c0c0c; // scope
+Yellow01    = 0x55a0f0ff; //anotations scope & preproc
+Yellow01A22 = 0x22A6922B; //anotagions hover
+Blue01      = 0xFF9b7188; // cursor
+Blue01A50   = 0x50719FA3;
+Blue02      = 0xFF308088; // macros
+Blue03A55   = 0x55004444; // select highlight
+Blue04      = 0x55334444; // select highlight
+Orange01    = 0xFFf04f00; // functions
+Orange02    = 0xFFdf9580; // sum types (structs, unions)
+Orange03    = 0xFF933820; // keywords
+Gray01      = 0xFF989090; // default text
+Gray02      = 0xFFd6d7d9; // operators & syntax
+Gray02A20   = 0x20d6d7d9;
+Gray03      = 0xff474e64; // comment
+Green01     = 0xFF818C71; // comment NOTE
+Red00       = 0xFFff0000;
+Red01       = 0xFFaf4c4c; // comment TODO
+Red02A20    = 0x20ff0000;
+Red03       = 0xFFcc0000;
+Red04       = 0xFFff0000;
+
+Transparent = 0x00000000;
+//- END OF PALETTE 
+// 4CODER BASIC EDITOR COLORING
+defcolor_bar                   = Transparent;
+defcolor_base                  = White01;
+defcolor_pop1                  = Orange03;
+defcolor_pop2                  = Yellow01;
+defcolor_back                  = Black01;
+defcolor_margin                = defcolor_back;
+defcolor_margin_hover          = defcolor_back;
+defcolor_margin_active         = defcolor_back;
+
+// 4CODER LISTER(ALT-X) STUFF
+defcolor_list_item             = { defcolor_back, Black01};
+defcolor_list_item_hover       = { Yellow01A22, Transparent }; //Mouse Select
+defcolor_list_item_active      = { Blue01A50, defcolor_margin}; //Key Select
+
+// 4CODER BASIC SYNTAX HIGHLIGHTING
+defcolor_cursor                = {Yellow01_trsp, White02};
+defcolor_at_cursor             = White02;
+defcolor_highlight_cursor_line = Blue04;
+defcolor_highlight             = White02;
+defcolor_at_highlight          = defcolor_back;
+defcolor_mark                  = Transparent;
+defcolor_text_default          = Gray01;
+defcolor_comment               = Gray03;
+defcolor_comment_pop           = { Green01, Red01 }; // { NOTE, TODO }
+defcolor_keyword               = Orange03;
+defcolor_str_constant          = White;
+defcolor_char_constant         = defcolor_str_constant;
+defcolor_int_constant          = defcolor_str_constant;
+defcolor_float_constant        = defcolor_str_constant;
+defcolor_bool_constant         = defcolor_str_constant;
+defcolor_preproc               = Yellow01;
+defcolor_include               = defcolor_str_constant;
+defcolor_special_character     = Red03;
+defcolor_ghost_character       = Blue01;
+defcolor_highlight_junk        = Red02A20;
+defcolor_highlight_white       = Blue03A55;
+
+// PASTE & UNDO
+defcolor_paste                 = 0xFF00FFFF;
+defcolor_undo                  = 0xFFFF00FF;
+
+// SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
+defcolor_back_cycle = {Black03, Black02, Black00, Black00};
+defcolor_text_cycle            = {0xFFF01010, 0xFF20D020, 0xFF0080E0, 0xFFD0D000};
+defcolor_line_numbers_back     = 0xFF383838;
+defcolor_line_numbers_text     = 0xFF686860;
+
+
+// FLUERY ADVANCED SYNTAX HIGHLIGHTING
+fleury_color_syntax_crap               = Gray02;
+fleury_color_operators                 = Gray02;
+fleury_color_inactive_pane_overlay     = Transparent;
+fleury_color_inactive_pane_background  = defcolor_back;
+fleury_color_file_progress_bar         = Yellow01A20;
+fleury_color_brace_highlight           = { White };
+fleury_color_brace_line                = { Gray02A20 };
+fleury_color_brace_annotation          = { Yellow01 };
+fleury_color_index_product_type        = Orange02;
+fleury_color_index_sum_type            = Orange02;
+fleury_color_index_function            = Orange01;
+fleury_color_index_macro               = Blue02;
+fleury_color_index_constant            = Red04;
+fleury_color_index_comment_tag         = Red01;
+fleury_color_cursor_macro              = Blue01;
+fleury_color_cursor_power_mode         = GreendarkSpring;
+fleury_color_cursor_inactive           = Redrufous;
+fleury_color_plot_cycle                = { Greenartichoke, Blue01, Gray01, Red01 };
+fleury_color_token_highlight           = Blue01;
+fleury_color_token_minor_highlight     = Green01;
+fleury_color_error_annotation          = Red00;
+fleury_color_lego_grab                 = Transparent;
+fleury_color_lego_splat                = Transparent;
+fleury_color_comment_user_name         = White01;

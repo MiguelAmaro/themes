@@ -15,7 +15,7 @@ brown_dark      = 0xFF634323;
 brown_dark_trsp = 0x55634323;
 
 gray_onyx       = 0xFF3E3D45;
-gray_ash        = 0xFFAAB4B3;
+gray_ash        = 0xFFd0b8a0;
 gray_light      = 0xFFd6d7d9;
 gray_light_trsp = 0x20d6d7d9;
 gray_battleship = 0xFF888888;
@@ -115,7 +115,7 @@ fleury_color_brace_line                = { gray_light_trsp };
 fleury_color_brace_annotation          = { red_persian_plum };
 fleury_color_index_product_type        = gray_ash;
 fleury_color_index_sum_type            = gray_ash;
-fleury_color_index_function            = gray_light;
+fleury_color_index_function            = red_rose_vale;
 fleury_color_index_macro               = red_persian_plum;
 fleury_color_index_constant            = gray_ash;
 fleury_color_index_comment_tag         = red_rufous;

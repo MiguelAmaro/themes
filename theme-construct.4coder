@@ -3,19 +3,19 @@
 //-
 
 //- PALETTE 
-black       = 0xFF000000;
-black_rich  = 0xFF121212;
-black_eerie = 0xFF141316;
-black_jet   = 0xFF1a1a1f; //Name stale
+//black       = 0xFF000000;
+black_rich  = 0xFF121212; // bar
+black_eerie = 0xFF141316; // margin, list item
+black_jet   = 0xFF1a1a1f; // back
 
-blue_columbia   = 0xFFcdedff;
-blue_cadet      = 0xFF719FA3;
+blue_columbia   = 0xFF496C7E;
+blue_cadet      = 0xFF719FA3; // plot, cursor macro, cycle, ghost char, keyword, list item hover,
 blue_cadet_trsp = 0x50719FA3;
 
-brown_dark      = 0xFF634323;
+brown_dark      = 0xFF634323; // lego, cycle
 brown_dark_trsp = 0x55634323;
 
-yellow_munsell = 0xFFefbf1c;
+yellow_munsell = 0xFFefbf1c; // function, annotation, preproc, cursor,
 yellow_munsell_trsp = 0x20e6c72c;
 
 gray_onyx       = 0xFF3E3D45;
@@ -116,7 +116,7 @@ fleury_color_brace_annotation          = { yellow_munsell };
 fleury_color_index_product_type        = green_artichoke;//0xff434f3f;
 fleury_color_index_sum_type            = gray_ash;
 fleury_color_index_function            = yellow_munsell; //gray_light;
-fleury_color_index_macro               = gray_battleship;
+fleury_color_index_macro               = blue_columbia;
 fleury_color_index_constant            = orange_copper;
 fleury_color_index_comment_tag         = red_rose_vale;
 fleury_color_cursor_macro              = blue_cadet;
