@@ -1,10 +1,10 @@
 //-
-// DEEP-ORANGE
+// CYAN
 //-
 
 //- PALETTE 
 White       = 0xFFffffff;
-White01     = 0xFFf2e3de; //literals
+White01     = 0xFFfffffe; //literals
 White02     = 0xFFf2e5ee;
 Black00     = 0xFF000000; // scope
 Black01     = 0xFF000007;//0xFF121212; // Background
@@ -17,14 +17,15 @@ Blue01A50   = 0x50719FA3;
 Blue02      = 0xFF308088; // macros
 Blue03A55   = 0x55004444; // select highlight
 Blue04      = 0x55334444; // select highlight
-Orange01    = 0xFFf04f00; // functions
-Orange02    = 0xFFdf9580; // sum types (structs, unions)
-Orange03    = 0xFF933820; // keywords
+Blue05      = 0xFFd2f0f0; // functions
+Blue06      = 0xFF00ffff; // keywords
+
+Gold01      = 0xFFd8cd92; // sum types (structs, unions)
 Gray01      = 0xFF989090; // default text
 Gray02      = 0xFFd6d7d9; // operators & syntax
 Gray02A20   = 0x20d6d7d9;
-Gray03      = 0xff474e64; // comment
 Green01     = 0xFF818C71; // comment NOTE
+Green02     = 0xff00f300; // comment
 Red00       = 0xFFff0000;
 Red01       = 0xFFaf4c4c; // comment TODO
 Red02A20    = 0x20ff0000;
@@ -36,7 +37,7 @@ Transparent = 0x00000000;
 // 4CODER BASIC EDITOR COLORING
 defcolor_bar                   = Transparent;
 defcolor_base                  = White01;
-defcolor_pop1                  = Orange03;
+defcolor_pop1                  = Blue06;
 defcolor_pop2                  = Yellow01;
 defcolor_back                  = Black01;
 defcolor_margin                = defcolor_back;
@@ -55,11 +56,11 @@ defcolor_highlight_cursor_line = Blue04;
 defcolor_highlight             = White02;
 defcolor_at_highlight          = defcolor_back;
 defcolor_mark                  = Transparent;
-defcolor_text_default          = Gray01;
-defcolor_comment               = Gray03;
+defcolor_text_default          = White01;
+defcolor_comment               = Green02;
 defcolor_comment_pop           = { Green01, Red01 }; // { NOTE, TODO }
-defcolor_keyword               = Orange03;
-defcolor_str_constant          = White;
+defcolor_keyword               = Blue06;
+defcolor_str_constant          = Gray01;
 defcolor_char_constant         = defcolor_str_constant;
 defcolor_int_constant          = defcolor_str_constant;
 defcolor_float_constant        = defcolor_str_constant;
@@ -91,9 +92,9 @@ fleury_color_file_progress_bar         = Yellow01A20;
 fleury_color_brace_highlight           = { White };
 fleury_color_brace_line                = { Gray02A20 };
 fleury_color_brace_annotation          = { Yellow01 };
-fleury_color_index_product_type        = Orange02;
-fleury_color_index_sum_type            = Orange02;
-fleury_color_index_function            = Orange01;
+fleury_color_index_product_type        = Gold01;
+fleury_color_index_sum_type            = Gold01;
+fleury_color_index_function            = Blue05;
 fleury_color_index_macro               = Blue02;
 fleury_color_index_constant            = Red04;
 fleury_color_index_comment_tag         = Red01;

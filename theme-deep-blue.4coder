@@ -18,10 +18,11 @@ BlueRobinEgg   = 0xFF00cac8;
 YellowSatinGold    = 0xFFA6922B;
 YellowSatinGoldA22 = 0x22A6922B;
 
+Gray00 = 0xFF888888;
+Gray01 = 0xFFa09080;
 GrayAsh        = 0xFFAAB4B3;
 GrayLight      = 0xFFd6d7d9;
 GrayLightA20 = 0x20d6d7d9;
-GrayBattleship = 0xFF888888;
 GrayDarkLiver  = 0xff474e64; /// name stale
 
 GreenArtichoke = 0xFF818C71;
@@ -70,7 +71,7 @@ defcolor_highlight_cursor_line = defcolor_back;
 defcolor_highlight             = WhiteLavenderBlush;
 defcolor_at_highlight          = defcolor_back;
 defcolor_mark                  = Transparent;
-defcolor_text_default          = GrayBattleship;
+defcolor_text_default          = Gray01;
 defcolor_comment               = GrayDarkLiver;
 defcolor_comment_pop           = { GreenArtichoke, RedRoseVale }; // { NOTE, TODO }
 defcolor_keyword               = BlueDarkElectric;
@@ -91,7 +92,7 @@ defcolor_paste                 = 0xFF00FFFF;
 defcolor_undo                  = 0xFFFF00FF;
 
 // SCOPE HIGHLIGHTING, NESTED PAREN COLORING & LINE NUMBERS
-defcolor_back_cycle = {GrayLightA20, cycle_White, GrayLightA20 , cycle_BlueCadet};
+defcolor_back_cycle = {0x0affffff, 0x0bffffff, 0x0c000000, 0x0d888888, };
 defcolor_text_cycle            = {0xFFF01010, 0xFF20D020, 0xFF0080E0, 0xFFD0D000};
 defcolor_line_numbers_back     = 0xFF383838;
 defcolor_line_numbers_text     = 0xFF686860;
@@ -115,7 +116,7 @@ fleury_color_index_comment_tag         = RedRoseVale;
 fleury_color_cursor_macro              = BlueCadet;
 fleury_color_cursor_power_mode         = GreendarkSpring;
 fleury_color_cursor_inactive           = Redrufous;
-fleury_color_plot_cycle                = { Greenartichoke, BlueCadet, GrayBattleship, RedRoseVale };
+fleury_color_plot_cycle                = { Greenartichoke, BlueCadet, Gray00, RedRoseVale };
 fleury_color_token_highlight           = BlueCadet;
 fleury_color_token_minor_highlight     = GreenArtichoke;
 fleury_color_error_annotation          = Red;
