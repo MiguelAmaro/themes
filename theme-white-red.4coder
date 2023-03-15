@@ -7,7 +7,7 @@ RedDarkSienna = 0xFF240705;
 
 RedRosewood      = 0xFF59120d;
 RedCrimsonRed    = 0xFF7d1811;
-RedCarnelian     = 0xFFad2118;
+RedCarnelian     = 0xFFe00000;
 RedCG            = 0xFFE03328;
 RedFireOpal      = 0xFFe8675f;
 RedLightCoral    = 0xFFed908a;
@@ -15,21 +15,23 @@ RedSpanishPink   = 0xFFf5bcb8;
 RedMistyRose     = 0xFFfadedc;
 RedLavenderBlush = 0xFFfceeed;
 
+Orange00 = 0xFFc05000;
 GreenLincon = 0xFF245b1a;
 
 Red = 0xFFff0000;
+Red00 = 0xFF770000;
 RedRoseVale = 0xFFaf4c4c;
 
 White = 0x3fffffff;
 WhiteCultured = 0xFFeeeeee;
 WhiteLinen = 0xFFf2e3de;
-WhiteIsabelline = 0xFFf0e9eb;
+WhiteIsabelline = 0xFFf0e9dd;
 
-GrayBattleship = 0xFF888888;
+Blue00 = 0xFF008888;
 Gray2 = 0x3fccddee;
 Gray1 = 0x3fbbccdd;
 Gray0 = 0x3fbbbbcc;
-
+Gray00 = 0xFF444466;
 
 Transparent = 0x00000000;
 
@@ -52,16 +54,16 @@ defcolor_list_item_hover       = { RedMistyRose, RedLightCoral };
 defcolor_list_item_active      = { RedLightCoral, Transparent };
 
 // 4CODER BASIC SYNTAX HIGHLIGHTING
-defcolor_cursor                = { GrayBattleship, RedFireOpal };
+defcolor_cursor                = { Blue00, RedFireOpal };
 defcolor_at_cursor             = Gray1;
 defcolor_highlight_cursor_line = Gray1;
 defcolor_highlight             = Gray1;
 defcolor_at_highlight          = Gray1;
-defcolor_mark                  = GrayBattleship;
-defcolor_text_default          = RedCarnelian;
-defcolor_comment               = RedLightCoral;
+defcolor_mark                  = Blue00;
+defcolor_text_default          = Red00;
+defcolor_comment               = Blue00;
 defcolor_comment_pop           = { GreenLincon, RedRoseVale }; //{NOTE, TODO}
-defcolor_keyword               = GrayBattleship;
+defcolor_keyword               = Blue00;
 defcolor_str_constant          = RedRosewood;
 defcolor_char_constant         = defcolor_str_constant;
 defcolor_int_constant          = defcolor_str_constant;
@@ -87,26 +89,26 @@ defcolor_line_numbers_text     = Transparent;
 
 // FLUERY ADVANCED SYNTAX HIGHLIGHTING
 fleury_color_syntax_crap               = RedRosewood;
-fleury_color_operators                 = RedFireOpal;
-fleury_color_inactive_pane_overlay     = 0x33ddffff;
-fleury_color_inactive_pane_background  = WhiteLinen;
+fleury_color_operators                 = Gray00;
+fleury_color_inactive_pane_overlay     = 0x00ffffff;
+fleury_color_inactive_pane_background  = defcolor_back;
 fleury_color_file_progress_bar         = 0x55E03328; //RedCG
 fleury_color_brace_highlight           = { RedFireOpal };
 fleury_color_brace_annotation          = { RedFireOpal };
 fleury_color_brace_line                = { Gray0  };
-fleury_color_index_product_type        = RedFireOpal;
-fleury_color_index_sum_type            = RedFireOpal;
-fleury_color_index_function            = RedUSAFA;
-fleury_color_index_macro               = RedCG;
-fleury_color_index_constant            = RedCG;
+fleury_color_index_product_type        = Blue00;
+fleury_color_index_sum_type            = Blue00;
+fleury_color_index_function            = RedCarnelian;
+fleury_color_index_macro               = Orange00;
+fleury_color_index_constant            = Orange00;
 fleury_color_index_comment_tag         = RedCG;
 fleury_color_cursor_macro              = RedCG;
 fleury_color_cursor_power_mode         = RedCG;
 fleury_color_cursor_inactive           = RedCG;
 fleury_color_plot_cycle                = { Gray0, RedLightCoral, RedRoseVale, RedCarnelian };
-fleury_color_token_highlight           = GrayBattleship;
+fleury_color_token_highlight           = Blue00;
 fleury_color_token_minor_highlight     = RedCG;
 fleury_color_error_annotation          = Red;
 fleury_color_lego_grab                 = RedCG;
 fleury_color_lego_splat                = RedCG;
-fleury_color_comment_user_name         = GrayBattleship;
+fleury_color_comment_user_name         = Blue00;
